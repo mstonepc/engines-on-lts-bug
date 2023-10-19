@@ -1,6 +1,8 @@
 # engines-on-lts-bug
 Reproduce live-reload bug
 
+Node Version: 18.12.1
+
 1. Clone the repo
 2. Run `npm install` in both host-app and test-engine directories
 3. Run `ember s` from host-app
