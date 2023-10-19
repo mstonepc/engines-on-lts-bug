@@ -1,7 +1,12 @@
 # engines-on-lts-bug
 Reproduce live-reload bug
 
-Error this repo is reproducing:
+1. Clone the repo
+2. Run `npm install` in both host-app and test-engine directories
+3. Run `ember s` from host-app
+4. Save any watched file, ie: `router.js`
+
+Error:
 
 ```sh
 You specified a `"srcDir": /` which does not exist and did not specify `"allowEmpty": true`.
